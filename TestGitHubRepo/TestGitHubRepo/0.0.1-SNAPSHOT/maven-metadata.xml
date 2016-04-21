@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>TestGitHubRepo</groupId>
+  <artifactId>TestGitHubRepo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20160421.135445</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20160421135445</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-20160421.135445-1</value>
+        <updated>20160421135445</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20160421.135445-1</value>
+        <updated>20160421135445</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
