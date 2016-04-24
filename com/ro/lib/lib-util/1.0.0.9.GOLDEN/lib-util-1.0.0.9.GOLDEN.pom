@@ -14,15 +14,7 @@
 		<artifactId>lib</artifactId>
 		<version>1.0.0.9.GOLDEN</version>
 		<relativePath>../pom.xml</relativePath>
-	</parent>
-
-	<distributionManagement>
-		<repository>
-			<id>internal.repo</id>
-			<name>Temporary Staging Repository</name>
-			<url>file://${project.build.directory}/mvn-repo</url>
-		</repository>
-	</distributionManagement>
+	</parent>	
 
 	<dependencies>
 		<dependency>
