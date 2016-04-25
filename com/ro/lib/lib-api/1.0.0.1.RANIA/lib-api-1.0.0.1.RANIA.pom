@@ -13,7 +13,7 @@
 		<artifactId>lib</artifactId>
 		<version>1.0.0.1.RANIA</version>
 		<relativePath>../pom.xml</relativePath>
-	</parent>	
+	</parent>
 
 	<dependencies>
 
