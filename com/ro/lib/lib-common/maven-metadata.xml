@@ -3,10 +3,10 @@
   <groupId>com.ro.lib</groupId>
   <artifactId>lib-common</artifactId>
   <versioning>
-    <release>1.0.0.1.RANIA</release>
+    <release>1.0.0.9.GOLDEN</release>
     <versions>
-      <version>1.0.0.1.RANIA</version>
+      <version>1.0.0.9.GOLDEN</version>
     </versions>
-    <lastUpdated>20160425120222</lastUpdated>
+    <lastUpdated>20160425121825</lastUpdated>
   </versioning>
 </metadata>
