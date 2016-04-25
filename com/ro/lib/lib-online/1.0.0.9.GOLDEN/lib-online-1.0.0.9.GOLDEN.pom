@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>lib-online</artifactId>
+	<packaging>jar</packaging>
+	<name>lib-online</name>
+	<url>http://www.reserveout.com</url>
+	<properties>
+	    <org.springframework-version>3.2.0.RELEASE</org.springframework-version>
+	    <spring-social.version>1.1.0.RELEASE</spring-social.version>
+		<org.springframework.social-facebook-version>1.1.1.RELEASE</org.springframework.social-facebook-version>
+		<org.springframework.social-twitter-version>1.1.0.RELEASE</org.springframework.social-twitter-version>
+		<org.springframework.social-google-version>1.0.0.RELEASE</org.springframework.social-google-version>
+		<org.springframework.security.crypto-version>3.1.0.RELEASE</org.springframework.security.crypto-version>
+	</properties>
+	
+	<parent>
+        <groupId>com.ro.lib</groupId>
+	    <artifactId>lib</artifactId>
+        <version>1.0.0.9.GOLDEN</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    
+    
+	<dependencies>
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-data</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-util</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-common</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-visit</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-auth</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		
+		<!--FACEBOOK -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-crypto</artifactId>
+			<version>${org.springframework.security.crypto-version}</version>
+		</dependency>
+		
+		<!-- Twitter API -->
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-twitter</artifactId>
+			<version>${org.springframework.social-twitter-version}</version>
+		</dependency>
+	
+		<!-- Google API -->
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-google</artifactId>
+			<version>${org.springframework.social-google-version}</version>
+		</dependency>
+		
+
+		<!-- Spring Social -->
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-core</artifactId>
+			<version>${spring-social.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-web</artifactId>
+			<version>${spring-social.version}</version>
+		</dependency>
+
+		<!-- Facebook API -->
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-facebook</artifactId>
+			<version>${org.springframework.social-facebook-version}</version>
+		</dependency>
+
+		<!-- JdbcUserConfiguration -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+
+		<!-- CGLIB, only required and used for @Configuration usage: could be removed 
+			in future release of Spring -->
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib-nodep</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<!--FACEBOOK -->
+	</dependencies>
+</project>
