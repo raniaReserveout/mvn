@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>lib-api</artifactId>
+	<packaging>jar</packaging>
+	<name>lib-api</name>
+	<url>http://www.reserveout.com</url>
+
+	<parent>
+		<groupId>com.ro.lib</groupId>
+		<artifactId>lib</artifactId>
+		<version>1.1.SNAPSHOTS</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-data</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-util</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-auth</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-content</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-visit</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-online</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-web-util</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sourceforge.jexcelapi</groupId>
+			<artifactId>jxl</artifactId>
+			<version>2.6.12</version>
+		</dependency>
+
+	</dependencies>
+
+</project>
