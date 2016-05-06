@@ -3,10 +3,10 @@
   <groupId>com.ro.lib</groupId>
   <artifactId>lib-loyalty</artifactId>
   <versioning>
-    <release>1.1.SNAPSHOTS</release>
+    <release>1.2.SNAPSHOTS</release>
     <versions>
-      <version>1.1.SNAPSHOTS</version>
+      <version>1.2.SNAPSHOTS</version>
     </versions>
-    <lastUpdated>20160505150752</lastUpdated>
+    <lastUpdated>20160506200711</lastUpdated>
   </versioning>
 </metadata>
