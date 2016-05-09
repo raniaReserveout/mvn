@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.ro.lib</groupId>
-  <artifactId>lib-guest</artifactId>
+  <artifactId>lib-outlet</artifactId>
   <version>1.0.SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20160509.095804</timestamp>
+      <timestamp>20160509.095809</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20160509095804</lastUpdated>
+    <lastUpdated>20160509095809</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.20160509.095804-1</value>
-        <updated>20160509095804</updated>
+        <value>1.0.20160509.095809-1</value>
+        <updated>20160509095809</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.20160509.095804-1</value>
-        <updated>20160509095804</updated>
+        <value>1.0.20160509.095809-1</value>
+        <updated>20160509095809</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
