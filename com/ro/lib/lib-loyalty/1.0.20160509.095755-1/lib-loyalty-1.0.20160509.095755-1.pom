@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>lib-notification</artifactId>
+	<artifactId>lib-loyalty</artifactId>
 	<packaging>jar</packaging>
-	<name>lib-notification</name>
+	<name>lib-loyalty</name>
 	<url>http://www.reserveout.com</url>
 	
 	<parent>
@@ -16,57 +16,26 @@
     </parent>
     
 	<dependencies>
-		<dependency>
-			<groupId>com.ro.lib</groupId>
-			<artifactId>lib-util</artifactId>
-			<version>${project.parent.version}</version>
-		</dependency>
 
 		<dependency>
 			<groupId>com.ro.lib</groupId>
-			<artifactId>lib-data</artifactId>
+			<artifactId>lib-auth</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
-				
-		<dependency>
-			<groupId>javax.mail</groupId>
-			<artifactId>mail</artifactId>
-			<version>1.4.7</version>
-		</dependency>
-		
+
 		<dependency>
 			<groupId>com.ro.lib</groupId>
 			<artifactId>lib-common</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.ro.lib</groupId>
-			<artifactId>lib-content</artifactId>
+			<artifactId>lib-notification</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
-		
-		
-		<dependency>
-			<groupId>net.htmlparser.jericho</groupId>
-			<artifactId>jericho-html</artifactId>
-			<version>3.1</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>c3p0</groupId>
-			<artifactId>c3p0</artifactId>
-			<version>0.9.0.4</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.6</version>
-		</dependency>
+
 		
 	</dependencies>
 
-	
-	
 </project>
