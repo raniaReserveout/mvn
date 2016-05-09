@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.ro.lib</groupId>
-  <artifactId>lib-localization</artifactId>
+  <artifactId>lib-content</artifactId>
   <version>1.0.SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20160509.095723</timestamp>
+      <timestamp>20160509.095733</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20160509095723</lastUpdated>
+    <lastUpdated>20160509095733</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.20160509.095723-1</value>
-        <updated>20160509095723</updated>
+        <value>1.0.20160509.095733-1</value>
+        <updated>20160509095733</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.20160509.095723-1</value>
-        <updated>20160509095723</updated>
+        <value>1.0.20160509.095733-1</value>
+        <updated>20160509095733</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
