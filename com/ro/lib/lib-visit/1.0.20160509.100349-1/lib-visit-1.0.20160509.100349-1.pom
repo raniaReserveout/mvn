@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>lib-visit</artifactId>
+	<packaging>jar</packaging>
+	<name>lib-visit</name>
+	<url>http://www.reserveout.com</url>
+	
+	<parent>
+        <groupId>com.ro.lib</groupId>
+	    <artifactId>lib</artifactId>
+        <version>1.0.SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    
+    <dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-data</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-util</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-common</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-outlet</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-loyalty</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ro.lib</groupId>
+			<artifactId>lib-guest</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		
+	<!-- 	<dependency>
+            <groupId>com.ro.lib</groupId>
+            <artifactId>lib-async</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    -->
+        <dependency>
+            <groupId>com.ro.lib</groupId>
+            <artifactId>lib-content</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+		
+	</dependencies>
+
+</project>
